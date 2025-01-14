@@ -128,7 +128,7 @@ footer {
 /* Hero Section */
 /* Hero Section con enfoque agresivo */
 #hero {
-    background-image: url('assets/images/hero-bg.jpg');
+    background-image: url('/assets/images/hero-bg3.jpg');
     background-size: cover;
     background-position: center;
     color: white;

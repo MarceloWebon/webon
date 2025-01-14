@@ -1,0 +1,83 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #222;
+    color: #fff;
+}
+
+header {
+    background-color: #ff4c4c;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    width: 100px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background: url('assets/images/hero-bg.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.products {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.product-item {
+    background-color: #333;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+}
+
+.product-item img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 8px;
+}
+
+button {
+    background-color: #ff4c4c;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #e03e3e;
+}
+
+footer {
+    background-color: #222;
+    color: #bbb;
+    text-align: center;
+    padding: 20px;
+}
